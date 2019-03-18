@@ -1,0 +1,151 @@
+/* Reset */
+* 
+{
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Base Selectors */
+body 
+{
+	font-size: 12px;
+	font-family: arial, helvetica, sans-serif;
+	background: #DDDDDD;
+	color: #000000;
+	padding: 20px;
+}
+
+/* form Selectors */
+.form
+{
+}
+
+.form_wrapper 
+{
+	margin: 10px auto;
+	width: 600px;
+}
+
+.form_wrapper p
+{
+	padding: 10px 0;
+}
+
+.form_clear
+{
+	clear: both;
+}
+
+.form label
+{	
+	text-align: left;
+	display: block;
+}
+
+.form label input
+{
+	float: left;
+}
+
+.form_radiobox
+{
+	margin: 4px 0;
+	float: left;
+}
+
+.form_radiobox label
+{
+	margin: 0 4px 4px 0;
+}
+
+.form_radiobox input[type="radio"]
+{
+	margin: 2px 4px 2px 0;
+	vertical-align: middle;
+}
+
+.form input[type="checkbox"]
+{
+	margin: 2px 4px 2px 0;
+	vertical-align: middle;
+}
+
+.form_title
+{
+	padding: 6px 0 2px 0px;
+	font-weight: bold;
+}
+
+.form_help
+{
+	color: #111111;
+	font-weight: normal;
+	padding: 2px 0 2px 2px;
+	display: block;
+	clear: both;
+}
+
+.form_error
+{
+	color: #AA0000;
+	font-weight: bold;
+	padding: 2px 0 2px 20px;
+	display: block;
+	clear: both;
+	background: url('../form/images/warning_small.png') 0px 2px no-repeat;
+}
+
+.form_submit
+{
+	margin: 8px 0;
+	padding: 2px 4px;
+	display: block;
+}
+
+.form_state_untouched
+{
+	background: url('../images/untouched.png') no-repeat;
+	font-size: 18px;
+	height: 48px;
+	line-height: 48px;
+	padding: 2px 0 2px 50px;	
+}
+
+.form_state_success
+{
+	background: url('../images/success.png') no-repeat;
+	font-size: 18px;
+	height: 48px;
+	line-height: 48px;
+	padding: 2px 0 2px 50px;	
+}
+
+.form_state_fail
+{
+	background: url('../images/fail.png') no-repeat;
+	font-size: 18px;
+	height: 48px;
+	line-height: 48px;
+	padding: 2px 0 2px 50px;	
+}
+.content{
+    max-width: 1366px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 100px;
+}
+.header{
+	border-bottom:1px solid #eee;
+	padding:10px 0px;
+	width:100%;
+	text-align:center;
+}
