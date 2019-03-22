@@ -1,7 +1,7 @@
 <?php
 $message = '';
 session_start();
-// var_dump($_SESSION['user_password']);
+
 if (!empty($_POST)) {
     if (password_verify($_POST['password'], $_SESSION['user_password']) && $_SESSION['user_email'] == $_POST['email']) {
         header('Location: ../crypto/home.html');
